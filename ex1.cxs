@@ -1,0 +1,33 @@
+Import mojo
+	
+	Global UR:Int = 60 'OnUpdateUate
+  	Global w:Int = DeviceWidth/1.5
+  	Global h:Int = DeviceHeight/1.5
+   	Global Js:Int = 50 'JumpScale
+	Global BS:Int = 5 'BallSize
+	Global SqS:Int = 30 'SquareSize
+	
+Class ballbounce Extends App
+​
+Method OnCreate()
+     SetUpdateRate(50)
+​
+  End
+ 
+  Method OnUpdate()
+ 
+  End
+ 
+  Method OnRender()
+​
+ End
+​
+End
+	
+Function Main()
+ 
+​
+ 
+  New ballbounce()
+ 
+End

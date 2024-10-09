@@ -1,0 +1,10 @@
+Import mojo
+
+Class Game Extends app
+
+	Method Oncreate()
+		
+		Drawcircle 10 
+	End
+	
+	
